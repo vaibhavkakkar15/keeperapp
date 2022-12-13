@@ -4,13 +4,9 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "http://vaibhavkakkar15.github.io/react_keeper_app",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
-    "gh": "^2.8.9",
-    "gh-pages": "^4.0.0",
-    "pages": "^0.0.16",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^2.1.3"
@@ -22,9 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": " npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
